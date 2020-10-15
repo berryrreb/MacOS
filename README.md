@@ -31,3 +31,23 @@ edge://flags/#hardware-media-key-handling #Para edge
 
 Buscar y deshabilitar la opción **Hardware Media Key Handling**
 Reiniciar Edge/Chrome
+
+## Descargar Command Line Tools
+
+Abrir Terminal y correr el comando:
+
+```sh
+xcode-select --install
+```
+
+Saldrá un promp con pasos a seguir para instalar la herramienta.
+
+Si esto no funciona, se puede descargar desde [developer.apple](https://developer.apple.com/download/more/)
+
+## Cambiar promp terminal
+
+Editar archivo /etc/zshrc y cambiar la línea PS1=... por algo como lo siguiente. Según deseado.
+
+```txt
+PS1="[MacBook %1~]$ "
+```
