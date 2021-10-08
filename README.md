@@ -51,3 +51,14 @@ Editar archivo /etc/zshrc y cambiar la línea PS1=... por algo como lo siguiente
 ```txt
 PS1="[MacBook %1~]$ "
 ```
+
+## Evitar la creación de archivo .DS_Store en cada directorio
+
+```zsh
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+```
+Si quieres regresar a al configuración original:
+
+```zsh
+defaults write com.apple.desktopservices DSDontWriteNetworkStores false
+```
