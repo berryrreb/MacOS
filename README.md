@@ -30,6 +30,9 @@ edge://flags/#hardware-media-key-handling #Para edge
 ```
 
 Buscar y deshabilitar la opción **Hardware Media Key Handling**
+
+> Para **Edge** puede que ya no exista dicha opción, habilitar *Temporarily unexpire M100 flags* o similar para ver si la opción sigue vigente.
+
 Reiniciar Edge/Chrome
 
 ## Descargar Command Line Tools
