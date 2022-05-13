@@ -70,11 +70,11 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores false
 
 [Now Playing](https://github.com/teaminkling/now-playing)
 
-## Homebrew Installation
+## Homebrew Installation
 
 [Homebrew](https://docs.brew.sh/Installation)
 
-## OhMyZSH
+## OhMyZSH
 
 Installation
 
