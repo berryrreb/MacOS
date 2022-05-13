@@ -89,7 +89,7 @@ After that, add it to your *~/.zshrc* file:
 echo 'source ~/zshrc_bck' >> ~/.zshrc
 ```
 
-### Edit you *~/.zshrc* file:
+### Edit your *~/.zshrc* file's plugins part:
 
 ```txt
 plugins=( 
