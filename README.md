@@ -65,3 +65,42 @@ Si quieres regresar a al configuración original:
 ```zsh
 defaults write com.apple.desktopservices DSDontWriteNetworkStores false
 ```
+
+## Now Playing App
+
+[Now Playing](https://github.com/teaminkling/now-playing)
+
+## Homebrew Installation
+
+[Homebrew](https://docs.brew.sh/Installation)
+
+## OhMyZSH
+
+Installation
+
+```zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Add the **zshrc_bck** file to your home directory.
+After that, add it to your *~/.zshrc* file:
+
+```zsh
+echo 'source ~/zshrc_bck' >> ~/.zshrc
+```
+
+### Edit you *~/.zshrc* file:
+
+```txt
+plugins=( 
+        git
+        macos
+        terraform
+)
+```
+
+### Change OhMyZsh theme
+
+```zsh
+sed -i .bck 's/ZSH_THEME.*/ZSH_THEME="geoffgarside"/g' ~/.zshrc
+```
