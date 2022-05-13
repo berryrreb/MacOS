@@ -1,0 +1,48 @@
+set -k
+
+# Don't forget to add this file to main .zshrc for oh-my-zsh
+# echo 'source ~/zshrc_bck' >> ~/.zshrc
+
+export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:~/Library/Python/3.8/bin
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+export CLOUDSDK_PYTHON_SITEPACKAGES=1
+
+export TF_PLUGIN_CACHE_DIR=$HOME/.terraform.d/plugin-cache
+# PS1="[%F{cyan}MacBook:%f %F{green}%1~%f]$ "
+
+alias ll='ls -lh'
+alias psgrep='ps aux | grep'
+alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -'
+alias py='python3'
+alias killid='sudo kill -9'
+alias pip='python3 -m pip'
+alias pip3='python3 -m pip'
+alias kctl='kubectl'
+alias k='kubectl'
+alias netstatTCP='sudo lsof -PiTCP -sTCP:LISTEN'
+alias gpg-search-key='gpg -k | grep -n2 '
+alias vi='vim'
+alias gti='git'
+alias g='gcloud'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/mauriciomelendez/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mauriciomelendez/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/mauriciomelendez/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mauriciomelendez/google-cloud-sdk/completion.zsh.inc'; fi
+[[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh) # add autocomplete permanently to your zsh shell
+[[ /Users/mauriciomelendez/google-cloud-sdk/bin/minikube ]] && source <(minikube completion zsh)
+
+
+
+complete -C '/usr/local/bin/aws_completer' aws
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/terraform terraform
+source /usr/local/etc/bash_completion.d/az
+
+alias awsv='~/Documents/atomic/aws-vault-export.sh'
+alias gcloud_token='~/Documents/Scripts/gcloud_token.zsh'
+
+
+alias mmelendez-dou='unset AWS_VAULT; unset AWS_PROFILE; echo "export AWS_PROFILE=mmelendez-dou"; aws-vault exec mmelendez-dou --no-session env | grep AWS | sed "s/AWS/export AWS/g"'
