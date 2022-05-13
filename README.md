@@ -82,12 +82,15 @@ Installation
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Add the **zshrc_bck** file to your home directory.
+Add the *zshrc_bck* file to your home directory.
+
 After that, add it to your *~/.zshrc* file:
 
 ```zsh
 echo 'source ~/zshrc_bck' >> ~/.zshrc
 ```
+
+> Modify every custom line in the *~/zshrc_bck* file. Maybe username info.
 
 ### Edit your *~/.zshrc* file's plugins part:
 
