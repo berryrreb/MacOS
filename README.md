@@ -107,3 +107,6 @@ plugins=(
 ```zsh
 sed -i .bck 's/ZSH_THEME.*/ZSH_THEME="geoffgarside"/g' ~/.zshrc
 ```
+
+### Rectangle
+[Rectangle](https://rectangleapp.com/)
