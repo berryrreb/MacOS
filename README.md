@@ -113,3 +113,13 @@ sed -i .bck 's/ZSH_THEME.*/ZSH_THEME="geoffgarside"/g' ~/.zshrc
 
 ## Fliqlo Screensaver
 [Fliqlo](https://fliqlo.com/screensaver/)
+
+## Balance Lock
+```zsh
+brew install balance-lock
+```
+
+## Jiggler
+```zsh
+brew install jiggler
+```
