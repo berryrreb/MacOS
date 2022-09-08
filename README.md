@@ -123,3 +123,8 @@ brew install balance-lock
 ```zsh
 brew install jiggler
 ```
+
+## Eul
+```zsh
+brew install eul
+```
