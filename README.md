@@ -124,7 +124,7 @@ brew install balance-lock
 brew install jiggler
 ```
 
-## Eul
+## Stats
 ```zsh
-brew install eul
+brew install stats
 ```
