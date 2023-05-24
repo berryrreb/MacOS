@@ -73,6 +73,9 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores false
 ## Homebrew Installation
 
 [Homebrew](https://docs.brew.sh/Installation)
+```zsh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ## OhMyZSH
 
