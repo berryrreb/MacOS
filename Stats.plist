@@ -24,12 +24,16 @@
 	<integer>10</integer>
 	<key>CPU_systemColor</key>
 	<string>secondBlue</string>
+	<key>CPU_updateInterval</key>
+	<integer>2</integer>
 	<key>CPU_userColor</key>
 	<string>yellow</string>
 	<key>CombinedModules</key>
-	<false/>
+	<true/>
 	<key>Disk_state</key>
 	<false/>
+	<key>FAN_bar_chart_label</key>
+	<true/>
 	<key>GPU_gpu</key>
 	<string>Apple M1 Pro</string>
 	<key>GPU_mini_alignment</key>
@@ -43,19 +47,21 @@
 	<key>GPU_showType</key>
 	<true/>
 	<key>GPU_state</key>
-	<true/>
+	<false/>
 	<key>LaunchAtLoginNext</key>
 	<true/>
+	<key>NSStatusItem Preferred Position CombinedModules</key>
+	<real>620</real>
 	<key>NSStatusItem Restore Position CPU_mini</key>
-	<integer>562</integer>
+	<integer>613</integer>
 	<key>NSStatusItem Restore Position GPU_mini</key>
-	<integer>656</integer>
+	<integer>529</integer>
 	<key>NSStatusItem Restore Position Network_speed</key>
-	<integer>491</integer>
+	<integer>542</integer>
 	<key>NSStatusItem Restore Position RAM_mini</key>
-	<integer>609</integer>
+	<integer>660</integer>
 	<key>NSStatusItem Restore Position Sensors_sensors</key>
-	<integer>784</integer>
+	<integer>707</integer>
 	<key>NSToolbar Configuration eu.exelban.Stats.Settings.Toolbar</key>
 	<dict>
 		<key>TB Display Mode</key>
@@ -68,7 +74,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame eu.exelban.Stats.Settings.WindowFrame</key>
-	<string>184 187 728 480 0 0 1800 1130 </string>
+	<string>1193 475 728 480 0 0 7680 2130 </string>
 	<key>Network_base</key>
 	<string>byte</string>
 	<key>Network_speed_icon</key>
@@ -79,24 +85,50 @@
 	<true/>
 	<key>Network_speed_valueColor</key>
 	<true/>
+	<key>Network_updateInterval</key>
+	<integer>2</integer>
 	<key>RAM_mini_alignment</key>
 	<string>right</string>
 	<key>RAM_mini_color</key>
-	<string>red</string>
-	<key>RAM_notifications_total_state</key>
+	<string>pressure</string>
+	<key>RAM_notifications_pressure_state</key>
 	<true/>
+	<key>RAM_notifications_pressure_value</key>
+	<string>warning</string>
+	<key>RAM_notifications_total_state</key>
+	<false/>
 	<key>RAM_notifications_total_value</key>
 	<integer>95</integer>
 	<key>RAM_processes</key>
 	<integer>10</integer>
+	<key>RAM_updateInterval</key>
+	<integer>2</integer>
+	<key>Sensors_barChart_position</key>
+	<integer>2</integer>
+	<key>Sensors_label_position</key>
+	<integer>3</integer>
+	<key>Sensors_mini_position</key>
+	<integer>1</integer>
+	<key>Sensors_oneView</key>
+	<true/>
+	<key>Sensors_sensors_alignment</key>
+	<string>center</string>
 	<key>Sensors_sensors_mode</key>
 	<string>twoRows</string>
+	<key>Sensors_sensors_monospacedFont</key>
+	<false/>
 	<key>Sensors_sensors_size</key>
 	<false/>
 	<key>Sensors_speed</key>
 	<false/>
+	<key>Sensors_stack_position</key>
+	<integer>0</integer>
 	<key>Sensors_state</key>
 	<false/>
+	<key>Sensors_updateInterval</key>
+	<integer>3</integer>
+	<key>Sensors_widget</key>
+	<string>sensors</string>
 	<key>keep_menubar_positions</key>
 	<true/>
 	<key>remote_tokens_migrated_to_keychain</key>
@@ -104,9 +136,19 @@
 	<key>runAtLoginInitialized</key>
 	<true/>
 	<key>sensor_Fastest Fan</key>
-	<true/>
+	<false/>
 	<key>sensor_Hottest CPU</key>
-	<true/>
+	<false/>
+	<key>sensor_Hottest GPU</key>
+	<false/>
+	<key>sensor_IDBR</key>
+	<false/>
+	<key>sensor_PPBR</key>
+	<false/>
+	<key>sensor_TW0P</key>
+	<false/>
+	<key>sensor_Total System Consumption</key>
+	<false/>
 	<key>setupProcess</key>
 	<true/>
 	<key>support_ts</key>
@@ -116,7 +158,7 @@
 	<key>temperature_units</key>
 	<string>celsius</string>
 	<key>updater_check_ts</key>
-	<integer>1790017728</integer>
+	<integer>1790146498</integer>
 	<key>updater_install_ts</key>
 	<integer>1790017736</integer>
 	<key>version</key>
