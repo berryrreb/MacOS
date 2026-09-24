@@ -90,7 +90,7 @@ Add the *zshrc_bck* file to your home directory.
 After that, add it to your *~/.zshrc* file:
 
 ```zsh
-echo 'source ~/zshrc_bck' >> ~/.zshrc
+echo '[[ -f "$HOME/zshrc_bck" ]] && source "$HOME/zshrc_bck"' >> ~/.zshrc
 ```
 
 > Modify every custom line in the *~/zshrc_bck* file. Maybe username info.
@@ -101,7 +101,6 @@ echo 'source ~/zshrc_bck' >> ~/.zshrc
 plugins=( 
         git
         macos
-        terraform
 )
 ```
 
